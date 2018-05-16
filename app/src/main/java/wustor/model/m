@@ -1,0 +1,12 @@
+这里的M层不是传统意义上的Model,
+我更倾向于认为他是一个ModelManager,
+就是一个数据处理中心，
+可以处理网络数据，数据库，文件
+以及关于Android中的四大组件的交互包含BroadcastReceiver,Service中的，
+都可以集中在这里面处理，
+有很长一段时间对于M的认知都是觉得就是个实体类，
+那个时候还以为自己掌握地很透彻，
+最后发现自己理解的其实是不对的，
+ModelManager持有Presenter的引用，
+M处理完数据之后通过Callback回调Presenter,
+Presenter由于持有View的引用，所以可以回调View

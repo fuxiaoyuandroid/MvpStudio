@@ -1,0 +1,9 @@
+就是指View(界面)，往大了说是Activity或者Fragment，
+往小了说可以是一个Dialog、Toast或者SnakeBar,
+具体就是直接跟用户进行打交道的，
+View会实现Callback接口，
+然后传递给Presenter，
+然后Presenter会去ModelManager进行交互，
+然后数据处理完成之后，
+会通过Callback回调回来，
+这样就完成了一个闭环
