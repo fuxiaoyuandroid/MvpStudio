@@ -1,6 +1,6 @@
-package wustor.model;
+package com.jt.mvpstudio.wustor.model;
 
-import wustor.view.ViewCallBack;
+import com.jt.mvpstudio.wustor.view.ViewCallBack;
 
 /**
  * Created by Administrator on 2018/5/14 0014.

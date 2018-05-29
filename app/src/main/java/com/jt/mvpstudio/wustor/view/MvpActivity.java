@@ -1,4 +1,4 @@
-package wustor.view;
+package com.jt.mvpstudio.wustor.view;
 
 
 import android.view.View;
@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import com.jt.mvpstudio.R;
 
-import wustor.presenter.PresenterManager;
+import com.jt.mvpstudio.wustor.presenter.PresenterManager;
 
 public class MvpActivity extends BaseActivity<PresenterManager,String> implements ViewCallBack<String>{
     private TextView show;

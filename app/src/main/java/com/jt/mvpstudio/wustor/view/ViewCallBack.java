@@ -1,4 +1,4 @@
-package wustor.view;
+package com.jt.mvpstudio.wustor.view;
 
 /**
  * Created by Administrator on 2018/5/11 0011.

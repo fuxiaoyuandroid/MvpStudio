@@ -1,10 +1,10 @@
-package wustor.view;
+package com.jt.mvpstudio.wustor.view;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-import wustor.presenter.BasePresenterManager;
+import com.jt.mvpstudio.wustor.presenter.BasePresenterManager;
 
 /**
  * Created by Administrator on 2018/5/15 0015.

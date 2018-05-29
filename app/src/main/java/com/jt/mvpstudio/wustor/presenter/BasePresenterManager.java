@@ -1,7 +1,7 @@
-package wustor.presenter;
+package com.jt.mvpstudio.wustor.presenter;
 
-import wustor.model.BaseModelManager;
-import wustor.view.ViewCallBack;
+import com.jt.mvpstudio.wustor.model.BaseModelManager;
+import com.jt.mvpstudio.wustor.view.ViewCallBack;
 
 /**
  * Created by Administrator on 2018/5/15 0015.
