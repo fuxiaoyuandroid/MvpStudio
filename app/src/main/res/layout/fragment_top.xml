@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jt.mvpstudio.gc.view.TopFragment">
+    <TextView
+        android:id="@+id/top_show_tv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:text="有数据吗?"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#584210"/>
+    <Button
+        android:id="@+id/top_get_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击获取数据来显示"
+        android:textSize="35dp"
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>
