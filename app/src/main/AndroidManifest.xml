@@ -13,8 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".zhy.view.MainActivity" />
-        <activity android:name=".wustor.view.MvpActivity"></activity>
+        <activity android:name=".wustor.view.MvpActivity" />
         <activity android:name=".gc.view.Mvp2Activity">
+
+        </activity>
+        <activity android:name=".other.views.WeatherMvpActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

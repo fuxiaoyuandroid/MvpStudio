@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jt.mvpstudio.other.views.WeatherMvpActivity">
+    <TextView
+        android:id="@+id/jn_tv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="济南天气查询"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/bk_tv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="电子书"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"/>
+</LinearLayout>
